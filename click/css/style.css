@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	width: 80%;
+	cursor:pointer;
+	padding-top:2px;
+	list-style-type: none;
+	padding-left:2px;
+}
+.mymenu{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	border:1px solid grey;
+	width:15%;
+	font-size: 12px;
+}
+.lf{
+	width: 100%;
+	border-right:1px solid grey;
+	padding-left:0px;
+	padding-right:0px;
+}
+.rf{
+	padding:0;
+}
+
+hr{
+	margin-bottom:5px;
+	margin-top:3px;
+	border-top:1px solid grey;
+	width:60%;
+}
+li:hover{
+	background-color:aqua;
+}
